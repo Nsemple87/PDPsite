@@ -19,4 +19,6 @@ $GLOBALS['config'] = array(
 //use of autoload for OOP if needed for dynamic functionality
 spl_autoload_register(function($class) {require_once 'classes/'.$class.'.php';} );
 
+require_once 'functions/static.php';
+
 ?>

@@ -1,39 +1,24 @@
 
 <?php
 require_once 'core/init.php';
-?>                               
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<!-- CSS -->
-<link type="text/css" rel="stylesheet" href="resetstylesheet.css"/>
-<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
-<!-- CSS -->
+<?php echo $css?>
 <title>the PEOPLE</title>
+</head>
 <body>
-  <!-- Navigation bar -->
-  <div>
-	   <nav>
-		    <ul>
-           <li>
-              <a href="project.html">the Project</a>
-          </li>
-          <li>
-              <a href="people.html">the People</a>
-          </li>
-          <li>
-              <a href="prototype.html">the Prototype</a>
-          </li>
-          <li>
-              <a href="press.html">the Press</a>
-          </li>
-        </ul>
-    </nav>
-  </div>
-
-<div>
+<?php echo $navBar ?>
+<div class= "fullpage" id="midway">
+</div>
+<div class= "fullpage" id="midway1">
+</div>
+<div class="fullpage" id="footer">
+</div>
+</body>
+</html>
 <?php
 /* Test code to use picture sin an array - we can make this a seperate class to dynamicly 
 generate a block of text and pics for each yeam member later on
@@ -64,7 +49,3 @@ for($i=0; $i < sizeof($profilePics)-1 ; $i++) {
 } 
 closedir($path);*/
 ?>
-</div>
-</body>
-
-</html>
