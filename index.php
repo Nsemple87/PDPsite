@@ -23,16 +23,16 @@ require_once 'core/init.php';
 		<nav>
 			<ul>
         		<li>
-            		<a href="project.html">the Project</a>
+            		<a href="project.php">the Project</a>
         		</li>
        			<li>
-            		<a href="people.html">the People</a>
+            		<a href="people.php">the People</a>
         		</li>
         		<li>
-            		<a href="prototype.html">the Prototype</a>
+            		<a href="prototype.php">the Prototype</a>
         		</li>
         		<li>
-           			<a href="press.html">the Press</a>
+           			<a href="press.php">the Press</a>
         		</li>
      		</ul>
   		</nav>
