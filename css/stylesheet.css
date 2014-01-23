@@ -3,54 +3,47 @@
 /*body {
   width: 100%;
   max-width: 960px;
-  margin: 0 auto; }*/
+  margin: 0 auto; }
 
 /*allows navigation bar to fill the entire page's width and give it some top and bottom margin space*/
 nav {
   width: 100%;
-  margin: 100px 0;
+  height: 120px;
+  margin: 0px;
   position: fixed;
-  background-color: #E6E6E6 }
+  background-color: black;
+  list-style: none;
+  opacity:0.78;
+  filter:alpha(opacity=40); /* For IE8 and earlier */ }
 
-/* Make the list of links take up the whole width of the nav */
-nav ul {
-  width: 100%;
-  list-style: none;}
-
-nav ul li {
-  width: 25%;
-  float: left;}
-
-nav ul li a {
-  display: block;
-  width: 100%;
-  color:red;
-  padding: 15px;
-  font-size: 25px;
-   }
-
+nav a {
+  width: 25%
+  float: right;
+  color: white;
+  padding: 40px;
+  border: 20px;
+  font-size: 20px;
+  display: inline block;
+  text-decoration:none;
+  font-family: Comic Sans MS, cursive, sans-serif;
+  }
 
 #header{
   height: 300px;
   width: 100%;
-  background-color: #A4A4A4
-}
+  background-color: #A4A4A4;}
 
 #midway{
   background-color: white;
   height: 700px;
-  width: 100%;
-}
+  width: 100%;}
 
 #midway1{
  background-color: #FA5858; 
  height: 200px;
- width: 100%;
-}
+ width: 100%;}
 
 #footer{
   background-color: #848484;
   height: 700px;
-  width: 100%;
-}
-
+  width: 100%;}
