@@ -6,13 +6,18 @@ $css = '<!-- CSS --><link type="text/css" rel="stylesheet" href="css/resetstyles
 	   <link type="text/css" rel="stylesheet" href="css/stylesheet.css"/><!-- CSS -->';
 
 $navBar = '<!-- Navigation bar -->
-		<div class= "fullpage" id="navigation">
-		<nav>		
-		<a href="index.php"><img src="images/cup.gif" width="87" height="100"></a></td>
-		<a href="project.php">the Project</a></td>
-		<a href="people.php">the People</a></td>
-		<a href="prototype.php">the Prototype</a></td>
-		<a href="press.php">the Press</a></td>
-		</nav>
-		</div>';
+		<nav>
+			<table>
+				<tr>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td><a href="index.php"><img src="images/logo.gif" width="190" height="105"></a></td>
+                    <td><a href="project.php">the Project</a></td>
+                    <td><a href="people.php">the People</a></td>
+                    <td><a href="prototype.php">the Prototype</a></td>
+                    <td><a href="press.php">the Press</a></td>
+                </tr>
+            </table>
+        </nav>';
 ?>

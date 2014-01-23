@@ -7,14 +7,33 @@ require_once 'core/init.php';
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <?php echo $css?>
-<title>Home</title>
+<title>Team That Loves People</title>
 </head>
 
 <body>
-<?php echo $navBar ?>
+
 <div class= "fullpage" id="header">
+<?php echo $navBar ?>
 </div>
+
 <div class= "fullpage" id="midway">
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script>
+	$(function(){
+		$('.fadein img:gt(0)').hide();
+		setInterval(function(){$('.fadein :first-child').fadeOut().next('img').fadeIn().end().appendTo('.fadein');}, 3000);
+	});
+	</script>
+
+	<div class="fadein" id="slider">
+		<img src="images/slider/01.jpg">
+		<img src="images/slider/02.jpg">
+		<img src="images/slider/03.jpg">
+		<img src="images/slider/04.jpg">
+		<img src="images/slider/05.jpg">
+	</div>
+
 </div>
 
 <div class= "fullpage" id="midway1">
