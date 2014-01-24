@@ -17,6 +17,8 @@ require_once 'core/init.php';
 </div>
 <div class="fullpage" id="footer">
 </div>
+
+<?php echo $footer ?>
 </body>
 </html>
 <?php

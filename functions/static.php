@@ -20,4 +20,9 @@ $navBar = '<!-- Navigation bar -->
                 </tr>
             </table>
         </nav>';
+
+$footer1 = '<!-- footer1 -->
+		<a href="https://www.facebook.com"><img src="images/icons/facebookicon2.png"; height="80px"; width = "100px"/></a>
+		<a href="https://www.facebook.com"><img src="images/icons/emailicon.png" ; height="100px"; width = "100px"/></a>
+	';
 ?>
