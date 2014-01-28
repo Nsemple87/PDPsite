@@ -6,19 +6,48 @@
   margin: 0 auto; }
 
 /*allows navigation bar to fill the entire page's width and give it some top and bottom margin space*/
-nav {
-  z-index: 2;
+html {
+  margin: 0;
+  padding: 0; }
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
+p {
+  color: white; }
+
+#header {
+  z-index: 1000;
   width: 100%;
   height: 100px;
   margin: 0 auto;
+  padding: none;
+  background-color: #A4A4A4; }
+
+#navbar {
+  z-index: 1000;
+  width: 100%;
+  height: 145px;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: none;
   position: fixed;
   background-color: black;
   list-style: none;
-  opacity:0.78;
+  opacity:0.85;
   filter:alpha(opacity=40); /* For IE8 and earlier */ }
 
-nav a {
-  z-index: 2;
+#navbar .logo {
+  margin-top: auto;
+  margin-left: 15px;
+  margin-right: auto;
+  padding: none; }
+
+#navbar .menu {
+  z-index: 1000;
   width: 25%
   float: right;
   color: white;
@@ -28,6 +57,13 @@ nav a {
   display: inline block;
   text-decoration:none;
   font-family: Comic Sans MS, cursive, sans-serif; }
+
+
+#midway {
+  background-color: white;
+  margin: 0 auto;
+  height: 900px;
+  width: 100%; }
 
 .fadein {
   z-index: 1; 
@@ -66,7 +102,7 @@ nav a {
  width: 100%; }
 
 /*Creates the About PDP, About Alto University and About Design Factory buttons */
- .aboutButtons{
+ #footer .aboutButtons{
   border-radius: 10px; /*makes the button rounded. The highter the number the closer it will be to a circle*/
   border: 2px solid white;
   background-color: black;
@@ -75,8 +111,7 @@ nav a {
   margin: auto;
   text-align: center;
   padding:10px;
-  float: left;
-}
+  float: left; }
 
 #footer {
   background-color: #A4A4A4;/*gray*/
@@ -90,9 +125,3 @@ nav a {
   margin: 0 auto;
   height: 70px;
   width: 100%; }
-
-  p{
-    color: white;
-  }
-
-

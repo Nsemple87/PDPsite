@@ -12,9 +12,7 @@ require_once 'core/init.php';
 
 <body>
 
-<div class= "fullpage" id="header">
-<?php echo $navBar ?>
-</div>
+<?php echo $header ?>
 
 <div class= "fullpage" id="midway">
 
@@ -27,17 +25,11 @@ require_once 'core/init.php';
 		</script>
 
 		<div class="fadein" id="slider">
-			<!--<img src="images/slider/01.jpg">
+			<img src="images/slider/01.jpg">
 			<img src="images/slider/02.jpg">
 			<img src="images/slider/03.jpg">
 			<img src="images/slider/04.jpg">
-			<img src="images/slider/05.jpg">-->
-
-			<img src="images/confusedsmiley.jpg">
-			<img src="images/TTLP1.jpg">
-			<img src="images/lightbulb.jpg">
-			<img src="images/TTLP2.jpg">
-			<img src="images/confused1.jpg">
+			<img src="images/slider/05.jpg">
 		</div>
 
 </div>
@@ -46,34 +38,8 @@ require_once 'core/init.php';
 
 </div>
 
-<!--<div class="about">
-	
-</div>	-->
 
-<div id="footer">
-	<div class = "aboutButtons">
-		<p>PDP</p>
-	</div>
-	
-	<div class = "aboutButtons">
-		<p>Aalto University</p>
-		<p>
-		</p>
-	</div>
-	
-	<div class = "aboutButtons">
-		<p>Design Factory</p>
-		<p>
-		</p>
-	</div>
-</div>
-
-<div id="footer1">
-
-<?php echo $footer1 ?>
-	
-</div>
+<?php echo $footer ?>
 
 </body>
-
 </html>

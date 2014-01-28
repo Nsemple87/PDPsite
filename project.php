@@ -9,12 +9,15 @@ require_once 'core/init.php';
 <title>the PROJECT</title>
 </head>
 <body>
-<?php echo $navBar ?>
+
+<?php echo $header ?>
+
 <div class= "fullpage" id="midway">
 </div>
 <div class= "fullpage" id="midway1">
 </div>
-<div class="fullpage" id="footer">
-</div>
+
+<?php echo $footer ?>
+
 </body>
 </html>
