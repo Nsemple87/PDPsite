@@ -12,10 +12,6 @@ require_once 'core/init.php';
 
 <?php echo $header ?>
 
-<div class= "fullpage" id="midway">
-</div>
-<div class= "fullpage" id="midway1">
-</div>
 
 <?php echo $footer ?>
 

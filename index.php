@@ -34,9 +34,7 @@ require_once 'core/init.php';
 
 </div>
 
-<div class= "fullpage" id="midway1">
 
-</div>
 
 
 <?php echo $footer ?>
