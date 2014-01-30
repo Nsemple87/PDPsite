@@ -2,6 +2,8 @@
 /*
 Blocks of static HTML etc so we don't have to edit things multiple times, store header, navbar etc.
 */
+
+$ie_html5 = '<!--[if lt IE 9]><script src="scripts/html5shiv.js"></script><![endif]-->';
 $css = '<!-- CSS -->
 		<style>
 			* { margin: 0; padding: 0; }
