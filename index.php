@@ -3,14 +3,15 @@ require_once 'core/init.php';
 ?>
 <!DOCTYPE html>
 <head>
+<?php echo $ie_html5;?>
 <meta charset="UTF-8">
-<?php echo $css?>
+<?php echo $css;?>
 <title>Team That Loves People</title>
 </head>
 <body>
-<?php echo $header ?>
+<?php echo $header;?>
 <div class= "fullpage" id="midway">
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="scripts/jquery.min.js"></script>
 		<script>
 			$(function(){
 			$('.fadein img:gt(0)').hide();
@@ -25,6 +26,7 @@ require_once 'core/init.php';
 			<img src="images/slider/05.jpg">
 		</div>
 </div>
+<<<<<<< HEAD
 <hr>
 
 <div class = "about">
@@ -36,5 +38,8 @@ require_once 'core/init.php';
 
 
 <?php echo $footer ?>
+=======
+<?php echo $footer;?>
+>>>>>>> a6f1806763b4078fecd53a20e7f23d4c53c06b97
 </body>
 </html>

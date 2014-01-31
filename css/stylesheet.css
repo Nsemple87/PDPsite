@@ -1,17 +1,15 @@
-
-/* Give the body a width */
-/*body {
-  width: 100%;
-  max-width: 960px;
-  margin: 0 auto; }
+/*Used to wrap the entire page to sit ontop of .push*/
+.wrapper {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -4em; }
 
 /*allows navigation bar to fill the entire page's width and give it some top and bottom margin space*/
-
-
 #header {
   z-index: 1000;
   width: 100%;
-  height: 100px;
+  height: 145px;
   margin: 0 auto;
   padding: none;
   background-color: #A4A4A4; }
@@ -73,6 +71,7 @@
   right: 0;
   margin: 0 auto; }
 
+<<<<<<< HEAD
 #header {
   height: 145px;
   width: 100%;
@@ -91,6 +90,11 @@
   width: 100%; }
 
 }
+=======
+/*HTML5 pushes the footer to the very bottom of page*/
+.footer, .push {
+height: 4em; }
+>>>>>>> a6f1806763b4078fecd53a20e7f23d4c53c06b97
 
 /*Creates the About PDP, About Alto University and About Design Factory buttons */
  .aboutButtons{
@@ -109,10 +113,3 @@
   margin: 0 auto;
   height: 70px;
   width: 100%; }
-
-/*Foot that has the facebook and email icons*/
-/*#footer1 {
-  background-color: white;
-  margin: 0 auto;
-  height: 70px;
-  width: 100%; }*/

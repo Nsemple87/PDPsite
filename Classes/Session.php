@@ -1,5 +1,5 @@
 <?php
-//used to manipulate $_SESSION
+//used to manipulate $_SESSION DATA (if needed) -- add VAlidation class if user input is EVER USED!!!
 class Session {
 
 	private $_errors = array(); 

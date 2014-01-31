@@ -2,8 +2,8 @@
 
 session_start();
 
- //globals to prevent redundancy
-$GLOBALS['config'] = array(
+//globals to prevent redundancy
+/*$GLOBALS['config'] = array(
 	'mysql' => array(
 		'host' => '127.0.0.1',
 		'username' => '',
@@ -19,6 +19,7 @@ $GLOBALS['config'] = array(
 //use of autoload for OOP if needed for dynamic functionality
 spl_autoload_register(function($class) {require_once 'classes/'.$class.'.php';} );
 
+//load static html chunks
 require_once 'functions/static.php';
 
 ?>
