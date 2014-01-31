@@ -71,7 +71,7 @@ margin: 0 auto -4em; }
   right: 0;
   margin: 0 auto; }
 
-<<<<<<< HEAD
+
 #header {
   height: 145px;
   width: 100%;
@@ -81,28 +81,31 @@ margin: 0 auto -4em; }
 #midway {
   background-color: white;
   margin: 0 auto;
-  height: 1000px;
+  height: 700px;
   width: 100%; }
 
 .about{
 
-  height: 1000px;
+  height: 400px;
   width: 100%; }
 
 }
-=======
+
+.aboutText {
+color:white;
+font-family: Comic Sans MS, cursive, sans-serif; }
+
 /*HTML5 pushes the footer to the very bottom of page*/
 .footer, .push {
 height: 4em; }
->>>>>>> a6f1806763b4078fecd53a20e7f23d4c53c06b97
 
 /*Creates the About PDP, About Alto University and About Design Factory buttons */
  .aboutButtons{
   border-radius: 10px; /*makes the button rounded. The highter the number the closer it will be to a circle*/
   border: 2px solid white;
-  background-color: black;
+  background-color:#FA5858; ;
   height: 30px;
-  width: 120px;
+  width: 150px;
   margin: auto;
   text-align: center;
   padding:10px;

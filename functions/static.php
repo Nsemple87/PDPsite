@@ -11,7 +11,7 @@ $css = '<!-- CSS -->
 			* { margin: 0; padding: 0; }
 			
 			html { 
-				background: url(images/bg.jpg) no-repeat center center fixed; 
+				background: no-repeat center center fixed; 
 				-webkit-background-size: cover;
 				-moz-background-size: cover;
 				-o-background-size: cover;
@@ -42,24 +42,14 @@ $header = '<!-- Navigation bar -->
 				    </nav>
 				</div>';
 
-<<<<<<< HEAD
-$footer = '<!-- footer -->
-			<div id="footer">
-				<hr>
-				<a href="https://www.facebook.com"><img src="images/icons/fb.png"; height="45px"; width = "45x"/></a>
-				<a href="mailto:adress@server.com?subject=Hello Team That Loves People"><img src="images/icons/email.png" ; height="45px"; width = "45px""/></a>
-			</div>';
-=======
 //Footer Logic/code taken from: http://ryanfait.com/resources/footer-stick-to-bottom-of-page/
 $footer = '<div class="push"></div>
     	 </div>
     	 <div id="footer" class="footer">
-         	<div class = "aboutButtons"><p>PDP</p></div>
-			<div class = "aboutButtons"><p>Aalto University</p></div>
-			<div class = "aboutButtons"><p>Design Factory</p></div>
+    	 	<hr>
 			<a href="https://www.facebook.com"><img src="images/icons/fb.png"; height="45px"; width = "45x"/></a>
 			<a href="mailto:adress@server.com?subject=Hello Team That Loves People"><img src="images/icons/email.png" ; height="45px"; width = "45px""/></a>
 			<p><strong>Copyright © 2014. Team That Loves People. All rights reserved.</strong></p>
          </div>';
->>>>>>> a6f1806763b4078fecd53a20e7f23d4c53c06b97
+
 ?>
