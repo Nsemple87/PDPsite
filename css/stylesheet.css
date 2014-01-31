@@ -85,15 +85,17 @@ margin: 0 auto -4em; }
   width: 100%; }
 
 .about{
-
-  height: 400px;
+  height: 100px;
   width: 100%; }
 
-}
 
-.aboutText {
+.about .aboutButtons a{
+font-size:17px;
 color:white;
-font-family: Comic Sans MS, cursive, sans-serif; }
+font-family: Comic Sans MS, cursive, sans-serif;
+text-decoration: none;
+padding:5px; 
+margin:auto;}
 
 /*HTML5 pushes the footer to the very bottom of page*/
 .footer, .push {
@@ -104,12 +106,32 @@ height: 4em; }
   border-radius: 10px; /*makes the button rounded. The highter the number the closer it will be to a circle*/
   border: 2px solid white;
   background-color:#FA5858; ;
-  height: 30px;
-  width: 150px;
-  margin: auto;
+  height: 40px;
+  width: 220px;
+  margin-left: 120px;
+  margin-right: 80px;
+  margin-top: 20px;
   text-align: center;
   padding:10px;
   float: left; }
+
+  .aboutdesc{
+    height: 400px;
+    width:100%;
+  }
+
+  .description{
+    height:100%;
+    width:300px;
+    float:left;
+    padding: 25px;
+    padding-left: 100px;
+    padding-right: 40px;
+    font-family: Comic Sans MS, cursive, sans-serif;
+    font-size: 14px;
+    text-align: justify;
+  }
+
 
 #footer {
   background-color: white;/*gray*/

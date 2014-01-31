@@ -27,14 +27,46 @@ require_once 'core/init.php';
 		</div>
 </div>
 
+
+<div class= "about">
+</div>
+
 <hr>
 
 <div class = "about">
-	<div class = "aboutButtons"><p class = "aboutText">Aalto University</p></div>
-	<div class = "aboutButtons"><p class = "aboutText">Project Development Project (PDP)</p></div>
-	<div class = "aboutButtons"><p class = "aboutText">Design Factory</p></div>
+	<div class = "aboutButtons"><a href="http://www.aalto.fi/en/"id = "text">Aalto University</a></div>
+	<div class = "aboutButtons"><a href= "https://www.facebook.com/aaltopdp" id = "text">Project Development Project (PDP)</a></div>
+	<div class = "aboutButtons"><a href="http://www.aaltodesignfactory.fi/"id = "text">Design Factory</a></div>
 
 </div>
+
+<hr>
+
+<div class ="aboutdesc">
+	<div class= "description">
+	<p>Located in one of the world design capitals, Helsinki, Finland, Aalto University is where arts and science meets business and technology. 
+		Encouraging cross-disciplinary projects and learning in practice, Aalto University supports students to excel in their studies as well as
+		 their future careers. Ultimately, Aalto University strives to help students reach the common goal of building a better world.</p>
+	</div>
+
+	<div class= "description">
+	<p>PDP is a project course at Aalto University. Collaborating with students from all over the world, a 
+		multidisciplinary team takes part in a project sponsored by one or more domestic and foreign companies. Lasting the entire
+		 academic year, students are encouraged to understand the quality of their design, engineering, and marketing skills as well as cope
+		  with the challenges that may arise from interdisciplinary	teamwork while preparing them to carry out product development tasks developed by each organization.</p>
+	</div>
+	
+	<div class= "description">
+	<p>Spanning a total of 3000 square meters, Design Factory is where creativity, design and a great deal of collaboration come to life. 
+		Bringing together teachers, students, researchers and a variety of businesses, it is not surprising that the Design Factory is a home to innovation.
+		 Fully equipped with easy access to all materials, work spaces and equipment, Aalto University’s Design Factory fits perfectly with the university’s
+		  goal to promote learning in practice. </p>
+	</div>
+</div>
+
+<div class= "about">
+</div>
+
 
 <?php echo $footer;?>
 
