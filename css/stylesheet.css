@@ -1,22 +1,15 @@
-
-/* Give the body a width */
-/*body {
-  width: 100%;
-  max-width: 960px;
-  margin: 0 auto; }
-
-/*allows navigation bar to fill the entire page's width and give it some top and bottom margin space*/
-
+/*Used to wrap the entire page to sit ontop of .push*/
 .wrapper {
 min-height: 100%;
 height: auto !important;
 height: 100%;
 margin: 0 auto -4em; }
 
+/*allows navigation bar to fill the entire page's width and give it some top and bottom margin space*/
 #header {
   z-index: 1000;
   width: 100%;
-  height: 100px;
+  height: 145px;
   margin: 0 auto;
   padding: none;
   background-color: #A4A4A4; }
@@ -78,25 +71,6 @@ margin: 0 auto -4em; }
   right: 0;
   margin: 0 auto; }
 
-/*#header {
-  height: 145px;
-  width: 100%;
-  margin: 0 auto;
-  background-color: #A4A4A4; /*gray*/}*/
-
-#midway {
-  background-color: white;
-  margin: 0 auto;
-  height: 1000px;
-  width: 100%; }
-
-#midway1 {
- background-color: #FA5858;/*redish*/
- margin: 0 auto;
- height: 10px;
- width: 100%; }
-
-
 /*HTML5 pushes the footer to the very bottom of page*/
 .footer, .push {
 height: 4em; }
@@ -118,13 +92,3 @@ height: 4em; }
   margin: 0 auto;
   height: 70px;
   width: 100%; }
-
-
-
-
-/*Foot that has the facebook and email icons*/
-/*#footer1 {
-  background-color: white;
-  margin: 0 auto;
-  height: 70px;
-  width: 100%; }*/
