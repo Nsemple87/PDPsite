@@ -7,6 +7,11 @@
 
 /*allows navigation bar to fill the entire page's width and give it some top and bottom margin space*/
 
+.wrapper {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -4em; }
 
 #header {
   z-index: 1000;
@@ -73,11 +78,11 @@
   right: 0;
   margin: 0 auto; }
 
-#header {
+/*#header {
   height: 145px;
   width: 100%;
   margin: 0 auto;
-  background-color: #A4A4A4; /*gray*/}
+  background-color: #A4A4A4; /*gray*/}*/
 
 #midway {
   background-color: white;
@@ -90,6 +95,11 @@
  margin: 0 auto;
  height: 10px;
  width: 100%; }
+
+
+/*HTML5 pushes the footer to the very bottom of page*/
+.footer, .push {
+height: 4em; }
 
 /*Creates the About PDP, About Alto University and About Design Factory buttons */
  #footer .aboutButtons{
@@ -108,6 +118,9 @@
   margin: 0 auto;
   height: 70px;
   width: 100%; }
+
+
+
 
 /*Foot that has the facebook and email icons*/
 /*#footer1 {

@@ -11,7 +11,7 @@ require_once 'core/init.php';
 <body>
 <?php echo $header;?>
 <div class= "fullpage" id="midway">
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="scripts/jquery.min.js"></script>
 		<script>
 			$(function(){
 			$('.fadein img:gt(0)').hide();
