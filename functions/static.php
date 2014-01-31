@@ -36,9 +36,7 @@ $header = '<!-- Navigation bar -->
 
 $footer = '<!-- footer -->
 			<div id="footer">
-				<div class = "aboutButtons"><p>PDP</p></div>
-				<div class = "aboutButtons"><p>Aalto University</p></div>
-				<div class = "aboutButtons"><p>Design Factory</p></div>
+				<hr>
 				<a href="https://www.facebook.com"><img src="images/icons/fb.png"; height="45px"; width = "45x"/></a>
 				<a href="mailto:adress@server.com?subject=Hello Team That Loves People"><img src="images/icons/email.png" ; height="45px"; width = "45px""/></a>
 			</div>';

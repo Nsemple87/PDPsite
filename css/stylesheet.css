@@ -85,14 +85,15 @@
   height: 1000px;
   width: 100%; }
 
-#midway1 {
- background-color: #FA5858;/*redish*/
- margin: 0 auto;
- height: 10px;
- width: 100%; }
+.about{
+
+  height: 1000px;
+  width: 100%; }
+
+}
 
 /*Creates the About PDP, About Alto University and About Design Factory buttons */
- #footer .aboutButtons{
+ .aboutButtons{
   border-radius: 10px; /*makes the button rounded. The highter the number the closer it will be to a circle*/
   border: 2px solid white;
   background-color: black;

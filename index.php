@@ -25,6 +25,16 @@ require_once 'core/init.php';
 			<img src="images/slider/05.jpg">
 		</div>
 </div>
+<hr>
+
+<div class = "about">
+	<div class = "aboutButtons"><p>PDP</p></div>
+	<div class = "aboutButtons"><p>Aalto University</p></div>
+	<div class = "aboutButtons"><p>Design Factory</p></div>
+
+</div>
+
+
 <?php echo $footer ?>
 </body>
 </html>
