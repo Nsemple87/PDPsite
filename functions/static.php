@@ -47,9 +47,9 @@ $footer = '<div class="push"></div>
     	 </div>
     	 <div id="footer" class="footer">
     	 	<hr>
-			<a href="https://www.facebook.com"><img src="images/icons/fb.png"; height="45px"; width = "45x"/></a>
+			<a href="booyah.php"><img src="images/icons/fb.png"; height="45px"; width = "45x"/></a>
 			<a href="mailto:adress@server.com?subject=Hello Team That Loves People"><img src="images/icons/email.png" ; height="45px"; width = "45px""/></a>
-			<p><strong>Copyright © 2014. Team That Loves People. All rights reserved.</strong></p>
+			<p><center><strong>Copyright © 2014. Team That Loves People. All rights reserved.</strong></center></p>
          </div>';
 
 ?>

@@ -5,12 +5,22 @@ require_once 'core/init.php';
 <head>
 <?php echo $ie_html5;?>
 <meta charset="UTF-8">
+<style>
+	html{ 
+		background: url(images/bg.jpg) no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover; }
+	</style>
 <?php echo $css;?>
 <title>Team That Loves People</title>
 </head>
 <body>
+
 <?php echo $header;?>
-<div class= "fullpage" id="midway">
+
+ <div class= "fullpage" id="midway">
 	<script src="scripts/jquery.min.js"></script>
 		<script>
 			$(function(){
@@ -26,7 +36,6 @@ require_once 'core/init.php';
 			<img src="images/slider/05.jpg">
 		</div>
 </div>
-
 
 <div class= "about">
 </div>

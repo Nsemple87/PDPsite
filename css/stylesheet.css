@@ -3,7 +3,7 @@
 min-height: 100%;
 height: auto !important;
 height: 100%;
-margin: 0 auto -4em; }
+margin: 0 auto -4em; } }
 
 /*allows navigation bar to fill the entire page's width and give it some top and bottom margin space*/
 #header {
@@ -50,7 +50,7 @@ margin: 0 auto -4em; }
 #midway {
   background-color: white;
   margin: 0 auto;
-  height: 900px;
+  height:   900px;
   width: 100%; }
 
 .fadein {
