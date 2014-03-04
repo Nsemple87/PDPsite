@@ -5,6 +5,7 @@ require_once 'core/init.php';
 <html lang="en">
 <!--[if lt IE 9]><script src="scripts/html5shiv.js"></script><![endif]-->
 <head>
+<base href="/">
 <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
 <title>The Project</title>
 <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />

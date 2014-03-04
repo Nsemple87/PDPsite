@@ -6,6 +6,7 @@ require_once 'core/init.php';
 <!--[if lt IE 9]><script src="scripts/html5shiv.js"></script><![endif]-->
 
 <head>
+<base href="/">
 <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Team That Loves People</title>
 <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
