@@ -1,24 +1,4 @@
-<?php
-require_once 'core/init.php';
-?>
-<!DOCTYPE html>
-<html lang="en">
-<!--[if lt IE 9]><script src="scripts/html5shiv.js"></script><![endif]-->
-
-<head>
-<base href="/">
-<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Hospital Model Space: Meilahti New Children Hospital</title>
-<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
-<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
-<link rel="stylesheet" type="text/css" href="custom.css"/>
-
-</head>
-<body>
-
-<?php echo $header;?>
-
+<?php require ("config/config.php"); require (HEAD);?>
 <!-- Carousel -->
 <div id="myCarousel" class="carousel slide">
   <!-- Indicators -->
@@ -28,7 +8,7 @@ require_once 'core/init.php';
     <li data-target="#myCarousel" data-slide-to="2"></li>
   </ol>
   <div class="carousel-inner">
-    
+
     <div class="item active">
       <img src="images/slider/1.jpg">
       <div class="container">
@@ -105,10 +85,4 @@ require_once 'core/init.php';
             </div>
           </div>
         </div>
-
-<?php echo $footer;?>
-
-<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-<script src="scripts/bootstrap.js"></script>
-</body>
-</html>
+<?php require (FOOT); ?>

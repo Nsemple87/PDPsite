@@ -1,10 +1,17 @@
-<?php
-/*
-Blocks of static HTML etc so we don't have to edit things multiple times, store header, navbar etc - items which are on every page
-*/
-$header = '
+<!DOCTYPE html>
+<html lang="en">
+<!--[if lt IE 9]><script src="scripts/html5shiv.js"></script><![endif]-->
+<head>
+<base href="/">
+<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hospital Model Space: Meilahti New Children Hospital</title>
+<link rel="shortcut icon" href="<?php echo IMG;?>favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" type="text/css" href="<?php echo CSS;?>bootstrap.css"/>
+<link rel="stylesheet" type="text/css" href="<?php echo CSS;?>bootstrap.min.css"/>
+<link rel="stylesheet" type="text/css" href="<?php echo CSS;?>custom.css"/>
+</head>
+<body>
 <div id="wrap"><!-- Wrap all page content here -->
-
 <!-- NAVBAR -->
 <div class="navbar-wrapper">
 <div class="container">
@@ -17,13 +24,18 @@ $header = '
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand navbar-left" href="/index/">TEAM THAT <3 PEOPLE</a>
+            <a class="navbar-brand navbar-left" href="/">Hospital Model Space Project</a>
           </div>
-          <!-- Collect the nav links, forms, and other content for toggling -->          
+          <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-              <li class="active"><a href="/index/"><span class="glyphicon glyphicon-home"></span> Home</a></li>
-              <li class="disabled"><a href="#"><span class="glyphicon glyphicon-heart-empty"></span> Project</a></li>
+              <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Project<b class="caret"></b></a>
+                 <ul class="dropdown-menu">
+                  <li class="disabled"><a href="#">Model space</a></li>
+                  <li class="disabled"><a href="#">1:10 scale model</a></li>
+                  <li class="disabled"><a href="#">New ideas</a></li>
+                </ul>
+                </li>
               <li class="dropdown">  
                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> People<b class="caret"></b></a>
                 <ul class="dropdown-menu">
@@ -38,21 +50,3 @@ $header = '
         </nav>
     </div><!-- /container -->
     </div><!-- /navbar wrapper -->';
-
-//Footer Logic/code taken from: http://ryanfait.com/resources/footer-stick-to-bottom-of-page/
-$footer = '
-</div><!--/container-->
-</div><!--/wrap-->
-<div id="footer">
-  <div class="container">
-  <div class="row">
-    <div class="col-md-2"><a href=""><span class="glyphicon glyphicon glyphicon-heart"></span></a></div>
-    <div class="col-md-8"><p class="text-muted" align="center">Copyright &copy; 2014. Team That Loves People. All rights reserved.</p>
-    </div>
-    <div class="col-md-2"><a href="booyah"><span class="glyphicon glyphicon glyphicon-heart"></span></a></div>
-
-    
-  </div>
-</div>';
-
-?>
