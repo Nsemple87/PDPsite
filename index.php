@@ -125,7 +125,7 @@
                 for a high-dependency hospital room. Co-design methods are being used to ensure that every user group is taken into account.</i></p>
             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
             
-                <p>Click Here to read more...</p>
+                Click Here to read more...
             
             </a>
           </div> <!-- /.accordion heading -->
