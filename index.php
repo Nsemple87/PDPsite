@@ -121,18 +121,21 @@
       <div class="accordion-group">
           
           <div class="accordion-heading">
+            <p><i>The actual-sized model room is used as a tool for designing and achieving the perfect setup and functionality 
+                for a high-dependency hospital room. Co-design methods are being used to ensure that every user group is taken into account.</i></p>
             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-            <i>The actual-sized model room is used as a tool for designing and achieving the perfect setup and functionality 
-                for a high-dependency hospital room. Co-design methods are being used to ensure that every user group is taken into account.
+            
                 <p>Click Here to read more...</p>
-            </i>
+            
             </a>
           </div> <!-- /.accordion heading -->
          
-          <div id="collapseOne" class="accordion-body collapse in">
+          <div id="collapseOne" class="accordion-body collapse">
             <div class="accordion-inner">
-              After the preliminary field research, finding out about the nurse’s and patients lives in the hospital, we started running 
-                the model spaces, first with each other and then the actual demo run with the nurses. We started the event by making all the
+                 The actual-sized model room is used as a tool for designing and achieving the perfect setup and functionality 
+                 for a high-dependency hospital room. Co-design methods are being used to ensure that every user group is taken into account.
+                 After the preliminary field research, finding out about the nurse’s and patients lives in the hospital, we started running 
+                 the model spaces, first with each other and then the actual demo run with the nurses. We started the event by making all the
                  items and devices necessary to the space. In order to achieve a full list of items to be placed in the high dependency room, 
                  we did several field trips to the hospital complemented with nurse interviews. For the first prototype of the model room, we
                  used cardboard and other easy-to-build materials. Later, we started to bring in real equipment to capture a more realistic 
