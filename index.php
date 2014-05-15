@@ -113,6 +113,64 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-4">
+        <img class="img-responsive img-circle" src="pdpsite/public/img/circle_1_lifesizemodel.png">
+        <h3 class="text-center">Model space</h3>
+        
+      <div class="accordion" id="accordion2">
+
+      <div class="accordion-group">
+          
+          <div class="accordion-heading">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+            <i>The actual-sized model room is used as a tool for designing and achieving the perfect setup and functionality 
+                for a high-dependency hospital room. Co-design methods are being used to ensure that every user group is taken into account.
+                <p>Click Here to read more...</p>
+            </i>
+            </a>
+          </div> <!-- /.accordion heading -->
+         
+          <div id="collapseOne" class="accordion-body collapse in">
+            <div class="accordion-inner">
+              After the preliminary field research, finding out about the nurse’s and patients lives in the hospital, we started running 
+                the model spaces, first with each other and then the actual demo run with the nurses. We started the event by making all the
+                 items and devices necessary to the space. In order to achieve a full list of items to be placed in the high dependency room, 
+                 we did several field trips to the hospital complemented with nurse interviews. For the first prototype of the model room, we
+                 used cardboard and other easy-to-build materials. Later, we started to bring in real equipment to capture a more realistic 
+                 environment. Currently, the 1:1 sized model room is being tested by different user groups. The main focus of the test runs are 
+                 to find the best design for the model room, while the secondary focus will be on innovating and ideating about the structure and 
+                 functionality of the real hospital room itself. The user groups include doctors, nurses, hospital staff and patients along their 
+                 family. This co-design method will ensure that every point of view is taken into consideration when designing and planning the 
+                 real hospital room. Improvements to the model space are also being made after each test run.
+            </div> <!-- /.accordion inner -->
+          </div><!-- /.collapse ONE -->
+        
+      </div><!-- /.accordion-group -->
+        
+      </div><!-- /.accordion 2 -->
+      
+      </div><!-- /.col-md-4 -->
+
+      <div class="col-md-4">
+        <a href=""><img class="img-responsive img-circle" src="pdpsite/public/img/circle_2_110model.png"></a>
+        <h3 class="text-center"><a href=""id = "text">1:10 scale model</a></h3>
+        <p><i>The 1:10 model is a design tool that is used to complement the actual-sized model. When brainstorming, the small scale model allows us to quickly test out new ideas. This is really effective since any big changes done to the real-sized model will be more time consuming.</i></p>
+        <p>The 1:10 model allows us to brainstorm on ideas and quickly test them out whenever and wherever we are. It is not bound to a specific location, which means we do not always have to visit the actual-sized model to test our ideas. This is essential when working with other partners who contribute to the project but are not a part of our team. The small-scale model also lets us quickly test new ideas. Any changes and testing with the actual-sized model space is always time consuming. With the help of the 1:10 model we can test and generate more ideas in less time. The small-scale model is also used in the co-design workshops that we have arranged in the 1:1 model space. It helps the participants who are unfamiliar with the model space and project to quickly get a general idea and grasp of what we are trying to achieve.</p>
+      </div>
+      <div class="col-md-4">
+        <a href=""><img class="img-responsive img-circle" src="pdpsite/public/img/circle_3_newideas.png"></a>
+        <h3 class="text-center"><a href=""id = "text">New ideas</a></h3>
+        <p><i>Doing extensive research is essential when working with any design task, more so when you’re unfamiliar with the field you’re supposed to work in. This is why we devoted a great deal of time in understanding the details of the bigger picture.</i></p>
+        <p>To fully understand our task, we needed to do research on everything from visiting a hospital, to the devices and procedures used. We started our research by investigating the patient journey. The patient journey was made by interviewing three nurses at the current Children’s Hospital. It helped us to form an idea of what the patient goes through during his or her visit to the hospital.</p>
+        <p><strong>Viewpoint of the nurses:</strong> After the patient journey, we wanted to get insight of the issues from the nurses. We wanted to find out what the common procedures and problems in the space currently are. We used contextual inquiry to gather the information from the nurses. This method is combination of both observation and interview. We did the contextual inquiry with four nurses from the current Children’s Hospital. Focus was on the high dependency room. Three of the nurses were from the wards and one was from the policlinic.</p>
+        <p>We also investigated similar projects which led us to contact researcher Juha Kronqvist, from whom we got a great deal of insight on planning a hospital model space.</p>
+
+      </div>
+    </div>
+  </div><!-- /.carousel -->
+
+    <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4">
         <a href=""><img class="img-responsive img-circle" src="pdpsite/public/img/circle_1_lifesizemodel.png"></a>
         <h3 class="text-center"><a href=""id = "text">Model space</a></h3>
         <p><i>The actual-sized model room is used as a tool for designing and achieving the perfect setup and functionality for a high-dependency hospital room. Co-design methods are being used to ensure that every user group is taken into account.</i></p>
@@ -136,6 +194,35 @@
       </div>
     </div>
   </div>
+
+    <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4">
+        <a href=""><img class="img-responsive img-circle" src="pdpsite/public/img/circle_1_lifesizemodel.png"></a>
+        <h3 class="text-center"><a href=""id = "text">Model space</a></h3>
+        <p><i>The actual-sized model room is used as a tool for designing and achieving the perfect setup and functionality for a high-dependency hospital room. Co-design methods are being used to ensure that every user group is taken into account.</i></p>
+        <p>After the preliminary field research, finding out about the nurse’s and patients lives in the hospital, we started running the model spaces, first with each other and then the actual demo run with the nurses. We started the event by making all the items and devices necessary to the space. In order to achieve a full list of items to be placed in the high dependency room, we did several field trips to the hospital complemented with nurse interviews. For the first prototype of the model room, we used cardboard and other easy-to-build materials. Later, we started to bring in real equipment to capture a more realistic environment. Currently, the 1:1 sized model room is being tested by different user groups. The main focus of the test runs are to find the best design for the model room, while the secondary focus will be on innovating and ideating about the structure and functionality of the real hospital room itself. The user groups include doctors, nurses, hospital staff and patients along their family. This co-design method will ensure that every point of view is taken into consideration when designing and planning the real hospital room. Improvements to the model space are also being made after each test run.</p>
+      </div>
+      
+      <div class="col-md-4">
+        <a href=""><img class="img-responsive img-circle" src="pdpsite/public/img/circle_2_110model.png"></a>
+        <h3 class="text-center"><a href=""id = "text">1:10 scale model</a></h3>
+        <p><i>The 1:10 model is a design tool that is used to complement the actual-sized model. When brainstorming, the small scale model allows us to quickly test out new ideas. This is really effective since any big changes done to the real-sized model will be more time consuming.</i></p>
+        <p>The 1:10 model allows us to brainstorm on ideas and quickly test them out whenever and wherever we are. It is not bound to a specific location, which means we do not always have to visit the actual-sized model to test our ideas. This is essential when working with other partners who contribute to the project but are not a part of our team. The small-scale model also lets us quickly test new ideas. Any changes and testing with the actual-sized model space is always time consuming. With the help of the 1:10 model we can test and generate more ideas in less time. The small-scale model is also used in the co-design workshops that we have arranged in the 1:1 model space. It helps the participants who are unfamiliar with the model space and project to quickly get a general idea and grasp of what we are trying to achieve.</p>
+      </div>
+      <div class="col-md-4">
+        <a href=""><img class="img-responsive img-circle" src="pdpsite/public/img/circle_3_newideas.png"></a>
+        <h3 class="text-center"><a href=""id = "text">New ideas</a></h3>
+        <p><i>Doing extensive research is essential when working with any design task, more so when you’re unfamiliar with the field you’re supposed to work in. This is why we devoted a great deal of time in understanding the details of the bigger picture.</i></p>
+        <p>To fully understand our task, we needed to do research on everything from visiting a hospital, to the devices and procedures used. We started our research by investigating the patient journey. The patient journey was made by interviewing three nurses at the current Children’s Hospital. It helped us to form an idea of what the patient goes through during his or her visit to the hospital.</p>
+        <p><strong>Viewpoint of the nurses:</strong> After the patient journey, we wanted to get insight of the issues from the nurses. We wanted to find out what the common procedures and problems in the space currently are. We used contextual inquiry to gather the information from the nurses. This method is combination of both observation and interview. We did the contextual inquiry with four nurses from the current Children’s Hospital. Focus was on the high dependency room. Three of the nurses were from the wards and one was from the policlinic.</p>
+        <p>We also investigated similar projects which led us to contact researcher Juha Kronqvist, from whom we got a great deal of insight on planning a hospital model space.</p>
+
+      </div>
+    </div>
+  </div>
+
+
 </div><!--/container-->
 </div><!--/wrap-->
 <div id="footer">
