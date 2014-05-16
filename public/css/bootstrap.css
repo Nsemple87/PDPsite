@@ -24,7 +24,6 @@ header,
 hgroup,
 main,
 nav,
-section,
 summary {
   display: block;
 }
@@ -234,6 +233,10 @@ th {
   }
   select {
     background: #fff !important;
+  }
+  section {
+    padding-top: 80px;
+    margin-top: -80px;
   }
   .navbar {
     display: none;
@@ -3574,7 +3577,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
   color: #fff;
-  background-color: #428bca;
+  background-color: #fff;
 }
 .nav-stacked > li {
   float: none;
@@ -4359,7 +4362,7 @@ a.badge:focus {
 }
 a.list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
-  color: #428bca;
+  color: #fff;
   background-color: #fff;
 }
 .nav-pills > li > a > .badge {
